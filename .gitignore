@@ -6,11 +6,7 @@ target/
 /target
 /.idea
 /.mvn
-.gitignore
-.test-output/allure-results
-.test-output/full-report
-.test-output/Logs
-.test-output/target
+
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
