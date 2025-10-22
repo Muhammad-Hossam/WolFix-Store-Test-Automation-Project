@@ -1,0 +1,43 @@
+{
+  "login": {
+    "email": "ITI@Test.com",
+    "password": "p@ssw0rd"
+  },
+  "product": {
+    "productName": "apple watch",
+    "categoryName": "ELECTRONICS",
+    "companyName": "Apple"
+  },
+  "cart": {
+    "productName": "Apple Watch SE (2nd Gen) [GPS 40mm] Smartwatch with Starlight Aluminum Case with Starlight Sport Band - S/M",
+    "productPrice": "$174.30",
+    "cartTotalPrice": "$174.30",
+    "cartItemsCounter": "1 items"
+  },
+  "shippingInfo": {
+    "streetAddress": "Automation street",
+    "cityName": "sidi bishr",
+    "stateName": "Alex",
+    "zipCode": "12345",
+    "phoneNumber": "01234567890"
+  },
+  "paymentInfo": {
+    "cardNumber": "1111111111111111",
+    "month": "11",
+    "year": "35",
+    "cvv": "123",
+    "nameOnCard": "ITI Test"
+  },
+  "summery": {
+    "productName": "Apple Watch SE (2nd Gen) [GPS 40mm] Smartwatch with Starlight Aluminum Case with Starlight Sport Band - S/M",
+    "quantity": "Qty: 1",
+    "cartTotalPrice": "$174.30"
+  },
+  "messages": {
+    "orderCreatedMessage": "Order created successfully",
+    "orderConfirmedMessage": "Order Confirmed!",
+    "orderStatus": "processing",
+    "paymentStatus": "Payment Status: Completed"
+  },
+  "title": "Checkout"
+}

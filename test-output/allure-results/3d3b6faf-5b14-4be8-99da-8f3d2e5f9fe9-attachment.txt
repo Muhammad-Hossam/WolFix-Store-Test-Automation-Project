@@ -1,0 +1,45 @@
+[INFO] - [22-10-2025 13:57:30] [main] [com.graduationproject.FileUtils] - File deleted: C:\Users\Maka\Desktop\ITI\Endgame\WolfixStore\test-output\Logs
+[INFO] - [22-10-2025 13:57:30] [main] [com.graduationproject.listeners.TestNGListeners] - Test output directories cleaned
+[INFO] - [22-10-2025 13:57:30] [main] [com.graduationproject.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [22-10-2025 13:57:30] [main] [com.graduationproject.FileUtils] - Directory created: src/test/resources/downloads
+[INFO] - [22-10-2025 13:57:30] [main] [com.graduationproject.listeners.TestNGListeners] - Test output directories created
+[INFO] - [22-10-2025 13:57:30] [main] [com.graduationproject.listeners.TestNGListeners] - Properties loaded
+[INFO] - [22-10-2025 13:57:30] [main] [com.graduationproject.utils.report.AllureEnvironmentManager] - Allure environment info set successfully
+[INFO] - [22-10-2025 13:57:32] [main] [com.graduationproject.utils.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [22-10-2025 13:57:32] [main] [com.graduationproject.listeners.TestNGListeners] - Allure environment info set
+[INFO] - [22-10-2025 13:57:33] [main] [com.graduationproject.drivers.UIDriver] - Initializing driver =>edge<=
+[INFO] - [22-10-2025 13:57:42] [main] [com.graduationproject.utils.Actions.BrowserActions] - Navigated to URL: https://wolfixstore-ng.demo.sersawy.com
+[INFO] - [22-10-2025 13:57:42] [main] [com.graduationproject.listeners.TestNGListeners] - addProductToCart  About to execute 
+[INFO] - [22-10-2025 13:57:42] [main] [com.graduationproject.utils.Actions.BrowserActions] - Navigated to URL: https://wolfixstore-ng.demo.sersawy.com/products
+[DEBUG] - [22-10-2025 13:57:43] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['productToSearch']
+[INFO] - [22-10-2025 13:57:43] [main] [com.graduationproject.utils.Actions.ElementActions] - Typed into element:  Apple WatchBy.cssSelector: [name="searchInput"]
+[INFO] - [22-10-2025 13:57:43] [main] [com.graduationproject.utils.Actions.ElementActions] - Clicked on element: By.cssSelector: .search-input-group >i
+[INFO] - [22-10-2025 13:57:44] [main] [com.graduationproject.utils.Actions.ElementActions] - Hovered on element:By.cssSelector: [content="Add to Cart"]
+[INFO] - [22-10-2025 13:57:44] [main] [com.graduationproject.utils.Actions.ElementActions] - Clicked on element: By.cssSelector: [content="Add to Cart"]
+[DEBUG] - [22-10-2025 13:57:44] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['productAdded']
+[INFO] - [22-10-2025 13:57:44] [main] [com.graduationproject.utils.Actions.ElementActions] - Retrieved text ' from element:  1 × Apple Watch SE (2nd Gen) ...By.cssSelector: [role="alert"]
+[INFO] - [22-10-2025 13:57:44] [main] [com.graduationproject.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [22-10-2025 13:57:44] [main] [com.graduationproject.listeners.TestNGListeners] - addProductToCart passed
+[INFO] - [22-10-2025 13:57:44] [main] [com.graduationproject.listeners.TestNGListeners] - validateProductInCart  About to execute 
+[INFO] - [22-10-2025 13:57:45] [main] [com.graduationproject.utils.Actions.BrowserActions] - Navigated to URL: https://wolfixstore-ng.demo.sersawy.com/cart
+[INFO] - [22-10-2025 13:57:45] [main] [com.graduationproject.utils.Actions.ElementActions] - Retrieved text ' from element:  Apple Watch SE (2nd Gen) [GPS 40mm] Smartwatch with Starlight Aluminum Case with Starlight Sport Band - S/MBy.cssSelector: [class="cart-item-name"]
+[INFO] - [22-10-2025 13:57:45] [main] [com.graduationproject.utils.Actions.ElementActions] - Retrieved text ' from element:  $174.30By.cssSelector: [class="cart-item-price"]
+[INFO] - [22-10-2025 13:57:45] [main] [com.graduationproject.utils.Actions.ElementActions] - Retrieved text ' from element:  $174.30By.id: cartTotal
+[INFO] - [22-10-2025 13:57:45] [main] [com.graduationproject.utils.Actions.ElementActions] - Retrieved text ' from element:  1 itemsBy.cssSelector: .cart-header >span
+[INFO] - [22-10-2025 13:57:45] [main] [com.graduationproject.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [22-10-2025 13:57:45] [main] [com.graduationproject.listeners.TestNGListeners] - validateProductInCart passed
+[INFO] - [22-10-2025 13:57:45] [main] [com.graduationproject.listeners.TestNGListeners] - increaseProductQuantityInCart  About to execute 
+[INFO] - [22-10-2025 13:57:45] [main] [com.graduationproject.utils.Actions.BrowserActions] - Navigated to URL: https://wolfixstore-ng.demo.sersawy.com/cart
+[INFO] - [22-10-2025 13:57:46] [main] [com.graduationproject.utils.Actions.ElementActions] - Hovered on element:By.xpath: //button[.='+']
+[INFO] - [22-10-2025 13:57:46] [main] [com.graduationproject.utils.Actions.ElementActions] - Clicked on element: By.xpath: //button[.='+']
+[INFO] - [22-10-2025 13:57:46] [main] [com.graduationproject.utils.Actions.ElementActions] - Retrieved text ' from element:  2By.id: cartCountBadge
+[INFO] - [22-10-2025 13:57:46] [main] [com.graduationproject.utils.Actions.ElementActions] - Retrieved text ' from element:  2 × Apple Watch SE (2nd Gen) ...By.cssSelector: [role="alert"]
+[INFO] - [22-10-2025 13:57:46] [main] [com.graduationproject.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [22-10-2025 13:57:46] [main] [com.graduationproject.listeners.TestNGListeners] - increaseProductQuantityInCart passed
+[INFO] - [22-10-2025 13:57:46] [main] [com.graduationproject.listeners.TestNGListeners] - decreaseProductQuantityInCart  About to execute 
+[INFO] - [22-10-2025 13:57:46] [main] [com.graduationproject.utils.Actions.BrowserActions] - Navigated to URL: https://wolfixstore-ng.demo.sersawy.com/cart
+[INFO] - [22-10-2025 13:57:46] [main] [com.graduationproject.utils.Actions.ElementActions] - Clicked on element: By.xpath: //button[.='-']
+[INFO] - [22-10-2025 13:57:46] [main] [com.graduationproject.utils.Actions.ElementActions] - Retrieved text ' from element:  1By.id: cartCountBadge
+[INFO] - [22-10-2025 13:57:46] [main] [com.graduationproject.utils.Actions.ElementActions] - Retrieved text ' from element:  By.cssSelector: [role="alert"]
+[INFO] - [22-10-2025 13:57:47] [main] [com.graduationproject.utils.Actions.ElementActions] - Retrieved text ' from element:  1 × Apple Watch SE (2nd Gen) ...By.cssSelector: [role="alert"]
+[INFO] - [22-10-2025 13:57:47] [main] [com.graduationproject.media.ScreenshotsManager] - Capturing screenshot successfully

@@ -1,0 +1,15 @@
+{
+  "fullName": "Muhammad Hossam",
+  "invalidFullName": "MuhammadHossam",
+  "email": "ITI_",
+  "existingEmail": "ITI@Test.com",
+  "password": "P@ssw0rd",
+  "invalidPassword": "password",
+  "expectedPage": "https://wolfixstore-ng.demo.sersawy.com/login",
+  "messages":
+  {
+    "invalidName": "Please enter a valid name.",
+    "emailAlreadyExists": "Email already exists",
+    "passwordNotMatch": "Passwords do not match."
+  }
+}

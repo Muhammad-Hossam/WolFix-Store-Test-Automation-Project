@@ -1,0 +1,19 @@
+{
+  "productToSearch": "Apple Watch",
+  "productName": "Apple Watch SE (2nd Gen) [GPS 40mm] Smartwatch with Starlight Aluminum Case with Starlight Sport Band - S/M",
+  "productPrice": "$174.30",
+  "cartTotalPrice": "$174.30",
+  "cartItemsCounter": "1 items",
+  "quantityCounterIcon":"1",
+
+  "afterIncreaseQuantity":{
+    "quantityCounterIcon":"2",
+    "quantityUpdatedMessage":"2 × Apple Watch SE (2nd Gen) ..."
+  },
+  "messages": {
+    "productAdded": "1 × Apple Watch SE (2nd Gen) ...",
+    "productRemoved": "Removed from Cart ❌",
+    "cartIsEmpty": "Your cart is empty"
+
+  }
+}

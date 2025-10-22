@@ -1,0 +1,7 @@
+{
+  "name": "ITI",
+  "email": "ITI@Test.com",
+  "password": "p@ssw0rd",
+  "invalidpassword": "p@ss",
+  "unregisteredmail": "lol@lol.com"
+}
