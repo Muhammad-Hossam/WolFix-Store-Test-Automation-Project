@@ -1,6 +1,6 @@
 package com.graduationproject.drivers;
 
-import com.graduationproject.utils.dataReader.PropertyReader;
+import com.graduationproject.engine.dataReader.PropertyReader;
 import org.openqa.selenium.WebDriver;
 
 public abstract class AbstractDriver {

@@ -1,12 +1,13 @@
 package com.graduationproject.tests.ui;
 
-import com.graduationproject.drivers.UIDriver;
+import com.graduationproject.drivers.GUIDriver;
 import com.graduationproject.pages.CartPage;
 import com.graduationproject.pages.CheckoutPage;
 import com.graduationproject.pages.E2E;
+import com.graduationproject.pages.LoginPage;
 import com.graduationproject.pages.components.NavigationBarComponent;
 import com.graduationproject.tests.BaseTest;
-import com.graduationproject.utils.dataReader.JsonReader;
+import com.graduationproject.engine.dataReader.JsonReader;
 import io.qameta.allure.*;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -22,9 +23,8 @@ public class E2ETest extends BaseTest {
     //scenario
     @Test(description = "login with valid user")
     public void login(){
-        new NavigationBarComponent(driver)
+        new LoginPage(driver)
                 .navigate()
-                .clickOnLoginButton()
                 .enterEmail(testData.getJsonData("login.email"))
                 .enterPassword(testData.getJsonData("login.password"))
                 .clickOnLoginButton()
@@ -35,7 +35,6 @@ public class E2ETest extends BaseTest {
     @Test( dependsOnMethods = "login", description = "add product to cart")
     public void addProduct(){
         new NavigationBarComponent(driver)
-                .navigate()
                 .clickOnProductsButton()
                 .searchForProductWithName(testData.getJsonData("product.productName"))
                 .validateSearchedProductInfo(testData.getJsonData("product.categoryName"),
@@ -43,7 +42,7 @@ public class E2ETest extends BaseTest {
                 .clickOnAddToCartButton();
     }
 
-    @Test(dependsOnMethods = {"addProduct","login"}, description = "Proceed to checkout process")
+    @Test(dependsOnMethods = {"addProduct","login"}, description = "Proceed to checkout ")
     public void proceedToCheckout(){
         new CartPage(driver)
                 .navigate()
@@ -53,7 +52,7 @@ public class E2ETest extends BaseTest {
                         testData.getJsonData("cart.cartItemsCounter"))
                 .clickOnCheckoutButton();
     }
-    @Test(dependsOnMethods = {"proceedToCheckout","addProduct","login"}, description = "proceed to order confirmation with valid shipping and payment data")
+    @Test(dependsOnMethods = {"proceedToCheckout","addProduct","login"}, description = "proceed to order confirmation")
     public void fillShippingAndPaymentForm(){
         new CheckoutPage(driver)
                 .navigate()
@@ -89,7 +88,7 @@ public class E2ETest extends BaseTest {
     //configurations
     @BeforeClass
     public void setUp(){
-        driver=new UIDriver();
+        driver=new GUIDriver();
         new NavigationBarComponent(driver).navigate();
         testData=new JsonReader("E2E-data");
 

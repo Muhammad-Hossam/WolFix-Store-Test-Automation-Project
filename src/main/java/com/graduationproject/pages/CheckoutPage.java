@@ -1,14 +1,14 @@
 package com.graduationproject.pages;
 
-import com.graduationproject.drivers.UIDriver;
-import com.graduationproject.utils.dataReader.PropertyReader;
+import com.graduationproject.drivers.GUIDriver;
+import com.graduationproject.engine.dataReader.PropertyReader;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
 public class CheckoutPage {
-    private UIDriver driver;
+    private GUIDriver driver;
     private final String checkooutPage= (PropertyReader.getProperty("baseurl")+"/checkout");
-    public CheckoutPage(UIDriver driver) {
+    public CheckoutPage(GUIDriver driver) {
         this.driver = driver;
     }
 

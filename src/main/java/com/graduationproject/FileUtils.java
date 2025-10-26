@@ -1,7 +1,7 @@
 package com.graduationproject;
 
-import com.graduationproject.utils.dataReader.PropertyReader;
-import com.graduationproject.utils.logs.LogsManager;
+import com.graduationproject.engine.dataReader.PropertyReader;
+import com.graduationproject.engine.logs.LogsManager;
 import org.apache.logging.log4j.LogManager;
 
 import java.io.File;

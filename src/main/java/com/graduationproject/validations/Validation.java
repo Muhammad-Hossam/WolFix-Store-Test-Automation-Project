@@ -1,6 +1,6 @@
 package com.graduationproject.validations;
 
-import com.graduationproject.utils.logs.LogsManager;
+import com.graduationproject.engine.logs.LogsManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.asserts.SoftAssert;

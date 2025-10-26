@@ -1,12 +1,12 @@
 package com.graduationproject.pages;
 
-import com.graduationproject.drivers.UIDriver;
+import com.graduationproject.drivers.GUIDriver;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
 public class E2E {
-    private UIDriver driver;
-    public E2E(UIDriver driver) {
+    private GUIDriver driver;
+    public E2E(GUIDriver driver) {
         this.driver = driver;
     }
 

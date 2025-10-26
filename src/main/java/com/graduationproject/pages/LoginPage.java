@@ -1,14 +1,16 @@
 package com.graduationproject.pages;
 
-import com.graduationproject.drivers.UIDriver;
+import com.graduationproject.drivers.GUIDriver;
+import com.graduationproject.engine.dataReader.PropertyReader;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
 public class LoginPage {
-    private UIDriver driver;
+    private GUIDriver driver;
+    private String pageEndpoint = "/login";
 
 
-    public LoginPage(UIDriver driver) {
+    public LoginPage(GUIDriver driver) {
         this.driver = driver;
     }
 
@@ -23,6 +25,12 @@ public class LoginPage {
 
 
     //actions
+    @Step("Navigate to login page")
+    public LoginPage navigate() {
+        driver.browser().navigateTo(PropertyReader.getProperty("baseurl") + pageEndpoint);
+        return this;
+    }
+
     @Step("Enter email in login form")
     public LoginPage enterEmail(String email) {
         driver.element().type(emailField, email);

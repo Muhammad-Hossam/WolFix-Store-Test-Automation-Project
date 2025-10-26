@@ -1,20 +1,20 @@
 package com.graduationproject.pages.components;
 
-import com.graduationproject.drivers.UIDriver;
+import com.graduationproject.drivers.GUIDriver;
 import com.graduationproject.pages.*;
-import com.graduationproject.utils.dataReader.PropertyReader;
+import com.graduationproject.engine.dataReader.PropertyReader;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
 public class NavigationBarComponent {
-    private UIDriver driver;
+    private GUIDriver driver;
     private final String electronicEndpoint= PropertyReader.getProperty("baseurl")+"/category/Electronics";
     private final String homeEndpoint= PropertyReader.getProperty("baseurl")+"/category/Home";
     private final String clothingEndpoint= PropertyReader.getProperty("baseurl")+"/category/Clothing";
 
 
 
-    public NavigationBarComponent(UIDriver driver ){
+    public NavigationBarComponent(GUIDriver driver ){
         this.driver=driver;
     }
 

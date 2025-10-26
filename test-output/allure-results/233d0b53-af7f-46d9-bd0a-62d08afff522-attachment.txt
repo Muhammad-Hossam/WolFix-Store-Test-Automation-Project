@@ -1,0 +1,21 @@
+[INFO] - [26-10-2025 14:57:20] [main] [com.graduationproject.FileUtils] - File deleted: C:\Users\Maka\Desktop\ITI\Endgame\WolfixStore\test-output\Logs
+[INFO] - [26-10-2025 14:57:20] [main] [com.graduationproject.listeners.TestNGListeners] - Test output directories cleaned
+[INFO] - [26-10-2025 14:57:20] [main] [com.graduationproject.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [26-10-2025 14:57:20] [main] [com.graduationproject.FileUtils] - Directory created: src/test/resources/downloads
+[INFO] - [26-10-2025 14:57:20] [main] [com.graduationproject.listeners.TestNGListeners] - Test output directories created
+[INFO] - [26-10-2025 14:57:20] [main] [com.graduationproject.listeners.TestNGListeners] - Properties loaded
+[INFO] - [26-10-2025 14:57:20] [main] [com.graduationproject.engine.report.AllureEnvironmentManager] - Allure environment info set successfully
+[INFO] - [26-10-2025 14:57:22] [main] [com.graduationproject.engine.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [26-10-2025 14:57:22] [main] [com.graduationproject.listeners.TestNGListeners] - Allure environment info set
+[INFO] - [26-10-2025 14:57:22] [main] [com.graduationproject.drivers.GUIDriver] - Initializing driver =>edge<=
+[INFO] - [26-10-2025 14:57:26] [main] [com.graduationproject.engine.Actions.BrowserActions] - Navigated to URL: https://wolfixstore-ng.demo.sersawy.com
+[INFO] - [26-10-2025 14:57:26] [main] [com.graduationproject.listeners.TestNGListeners] - addProductToCart  About to execute 
+[INFO] - [26-10-2025 14:57:27] [main] [com.graduationproject.engine.Actions.BrowserActions] - Navigated to URL: https://wolfixstore-ng.demo.sersawy.com/products
+[DEBUG] - [26-10-2025 14:57:27] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['productToSearch']
+[INFO] - [26-10-2025 14:57:27] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  Apple WatchBy.cssSelector: [name="searchInput"]
+[INFO] - [26-10-2025 14:57:27] [main] [com.graduationproject.engine.Actions.ElementActions] - Clicked on element: By.cssSelector: .search-input-group >i
+[INFO] - [26-10-2025 14:57:28] [main] [com.graduationproject.engine.Actions.ElementActions] - Hovered on element:By.cssSelector: [content="Add to Cart"]
+[INFO] - [26-10-2025 14:57:28] [main] [com.graduationproject.engine.Actions.ElementActions] - Clicked on element: By.cssSelector: [content="Add to Cart"]
+[DEBUG] - [26-10-2025 14:57:28] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['productAdded']
+[INFO] - [26-10-2025 14:57:28] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  1 × Apple Watch SE (2nd Gen) ...By.cssSelector: [role="alert"]
+[INFO] - [26-10-2025 14:57:28] [main] [com.graduationproject.media.ScreenshotsManager] - Capturing screenshot successfully

@@ -1,11 +1,11 @@
 package com.graduationproject.tests.ui;
 
-import com.graduationproject.drivers.UIDriver;
+import com.graduationproject.drivers.GUIDriver;
 import com.graduationproject.pages.CartPage;
 import com.graduationproject.pages.CheckoutPage;
 import com.graduationproject.pages.components.NavigationBarComponent;
 import com.graduationproject.tests.BaseTest;
-import com.graduationproject.utils.dataReader.JsonReader;
+import com.graduationproject.engine.dataReader.JsonReader;
 import io.qameta.allure.*;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -130,7 +130,7 @@ public class CheckoutTest extends BaseTest {
     //configurations
     @BeforeClass
     public void setUp(){
-        driver=new UIDriver();
+        driver=new GUIDriver();
         new NavigationBarComponent(driver).navigate();
         testData=new JsonReader("checkout-data");
 

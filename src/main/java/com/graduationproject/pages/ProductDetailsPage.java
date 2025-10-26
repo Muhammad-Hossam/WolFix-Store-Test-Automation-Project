@@ -1,15 +1,15 @@
 package com.graduationproject.pages;
 
-import com.graduationproject.drivers.UIDriver;
-import com.graduationproject.utils.dataReader.PropertyReader;
+import com.graduationproject.drivers.GUIDriver;
+import com.graduationproject.engine.dataReader.PropertyReader;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
 public class ProductDetailsPage {
-    private UIDriver driver;
+    private GUIDriver driver;
     private String pageEndpoint= "/product/1";
 
-    public ProductDetailsPage(UIDriver driver)
+    public ProductDetailsPage(GUIDriver driver)
     {
         this.driver = driver;
     }

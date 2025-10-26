@@ -1,8 +1,8 @@
 package com.graduationproject.media;
 
-import com.graduationproject.utils.TimeManager;
-import com.graduationproject.utils.logs.LogsManager;
-import com.graduationproject.utils.report.AllureAttachmentManager;
+import com.graduationproject.engine.TimeManager;
+import com.graduationproject.engine.logs.LogsManager;
+import com.graduationproject.engine.report.AllureAttachmentManager;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;

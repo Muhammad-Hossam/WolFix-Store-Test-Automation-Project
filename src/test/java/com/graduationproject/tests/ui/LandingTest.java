@@ -1,8 +1,8 @@
 package com.graduationproject.tests.ui;
-import com.graduationproject.drivers.UIDriver;
+import com.graduationproject.drivers.GUIDriver;
 import com.graduationproject.pages.components.NavigationBarComponent;
 import com.graduationproject.tests.BaseTest;
-import com.graduationproject.utils.dataReader.JsonReader;
+import com.graduationproject.engine.dataReader.JsonReader;
 import io.qameta.allure.*;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -65,7 +65,7 @@ public class LandingTest extends BaseTest {
 
     @BeforeMethod
     public void setUp(){
-        driver=new UIDriver();
+        driver=new GUIDriver();
         new NavigationBarComponent(driver).navigate();
     }
 

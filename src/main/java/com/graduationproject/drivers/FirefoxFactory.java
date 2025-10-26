@@ -1,7 +1,7 @@
 package com.graduationproject.drivers;
 
-import com.graduationproject.utils.dataReader.PropertyReader;
-import com.graduationproject.utils.logs.LogsManager;
+import com.graduationproject.engine.dataReader.PropertyReader;
+import com.graduationproject.engine.logs.LogsManager;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.WebDriver;

@@ -1,16 +1,16 @@
 package com.graduationproject.pages;
 
-import com.graduationproject.drivers.UIDriver;
-import com.graduationproject.utils.dataReader.PropertyReader;
+import com.graduationproject.drivers.GUIDriver;
+import com.graduationproject.engine.dataReader.PropertyReader;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
 public class CartPage {
-    private UIDriver driver;
+    private GUIDriver driver;
     private String pageEndpoint= "/cart";
 
 
-    public CartPage(UIDriver driver) {
+    public CartPage(GUIDriver driver) {
         this.driver = driver;
     }
 

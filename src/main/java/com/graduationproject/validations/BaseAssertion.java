@@ -1,8 +1,8 @@
 package com.graduationproject.validations;
 
 import com.graduationproject.FileUtils;
-import com.graduationproject.utils.Actions.ElementActions;
-import com.graduationproject.utils.WaitManager;
+import com.graduationproject.engine.Actions.ElementActions;
+import com.graduationproject.engine.WaitManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 

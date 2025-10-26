@@ -1,0 +1,131 @@
+[INFO] - [26-10-2025 14:57:20] [main] [com.graduationproject.FileUtils] - File deleted: C:\Users\Maka\Desktop\ITI\Endgame\WolfixStore\test-output\Logs
+[INFO] - [26-10-2025 14:57:20] [main] [com.graduationproject.listeners.TestNGListeners] - Test output directories cleaned
+[INFO] - [26-10-2025 14:57:20] [main] [com.graduationproject.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [26-10-2025 14:57:20] [main] [com.graduationproject.FileUtils] - Directory created: src/test/resources/downloads
+[INFO] - [26-10-2025 14:57:20] [main] [com.graduationproject.listeners.TestNGListeners] - Test output directories created
+[INFO] - [26-10-2025 14:57:20] [main] [com.graduationproject.listeners.TestNGListeners] - Properties loaded
+[INFO] - [26-10-2025 14:57:20] [main] [com.graduationproject.engine.report.AllureEnvironmentManager] - Allure environment info set successfully
+[INFO] - [26-10-2025 14:57:22] [main] [com.graduationproject.engine.report.AllureBinaryManager] - Allure binaries already exist.
+[INFO] - [26-10-2025 14:57:22] [main] [com.graduationproject.listeners.TestNGListeners] - Allure environment info set
+[INFO] - [26-10-2025 14:57:22] [main] [com.graduationproject.drivers.GUIDriver] - Initializing driver =>edge<=
+[INFO] - [26-10-2025 14:57:26] [main] [com.graduationproject.engine.Actions.BrowserActions] - Navigated to URL: https://wolfixstore-ng.demo.sersawy.com
+[INFO] - [26-10-2025 14:57:26] [main] [com.graduationproject.listeners.TestNGListeners] - addProductToCart  About to execute 
+[INFO] - [26-10-2025 14:57:27] [main] [com.graduationproject.engine.Actions.BrowserActions] - Navigated to URL: https://wolfixstore-ng.demo.sersawy.com/products
+[DEBUG] - [26-10-2025 14:57:27] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['productToSearch']
+[INFO] - [26-10-2025 14:57:27] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  Apple WatchBy.cssSelector: [name="searchInput"]
+[INFO] - [26-10-2025 14:57:27] [main] [com.graduationproject.engine.Actions.ElementActions] - Clicked on element: By.cssSelector: .search-input-group >i
+[INFO] - [26-10-2025 14:57:28] [main] [com.graduationproject.engine.Actions.ElementActions] - Hovered on element:By.cssSelector: [content="Add to Cart"]
+[INFO] - [26-10-2025 14:57:28] [main] [com.graduationproject.engine.Actions.ElementActions] - Clicked on element: By.cssSelector: [content="Add to Cart"]
+[DEBUG] - [26-10-2025 14:57:28] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['productAdded']
+[INFO] - [26-10-2025 14:57:28] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  1 × Apple Watch SE (2nd Gen) ...By.cssSelector: [role="alert"]
+[INFO] - [26-10-2025 14:57:28] [main] [com.graduationproject.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [26-10-2025 14:57:28] [main] [com.graduationproject.listeners.TestNGListeners] - addProductToCart passed
+[INFO] - [26-10-2025 14:57:28] [main] [com.graduationproject.listeners.TestNGListeners] - validateProductInCart  About to execute 
+[INFO] - [26-10-2025 14:57:28] [main] [com.graduationproject.engine.Actions.BrowserActions] - Navigated to URL: https://wolfixstore-ng.demo.sersawy.com/cart
+[INFO] - [26-10-2025 14:57:29] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  Apple Watch SE (2nd Gen) [GPS 40mm] Smartwatch with Starlight Aluminum Case with Starlight Sport Band - S/MBy.cssSelector: [class="cart-item-name"]
+[INFO] - [26-10-2025 14:57:29] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  $174.30By.cssSelector: [class="cart-item-price"]
+[INFO] - [26-10-2025 14:57:29] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  $174.30By.id: cartTotal
+[INFO] - [26-10-2025 14:57:29] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  1 itemsBy.cssSelector: .cart-header >span
+[INFO] - [26-10-2025 14:57:29] [main] [com.graduationproject.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [26-10-2025 14:57:29] [main] [com.graduationproject.listeners.TestNGListeners] - validateProductInCart passed
+[INFO] - [26-10-2025 14:57:29] [main] [com.graduationproject.listeners.TestNGListeners] - increaseProductQuantityInCart  About to execute 
+[INFO] - [26-10-2025 14:57:29] [main] [com.graduationproject.engine.Actions.BrowserActions] - Navigated to URL: https://wolfixstore-ng.demo.sersawy.com/cart
+[INFO] - [26-10-2025 14:57:29] [main] [com.graduationproject.engine.Actions.ElementActions] - Hovered on element:By.xpath: //button[.='+']
+[INFO] - [26-10-2025 14:57:29] [main] [com.graduationproject.engine.Actions.ElementActions] - Clicked on element: By.xpath: //button[.='+']
+[INFO] - [26-10-2025 14:57:29] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  2By.id: cartCountBadge
+[INFO] - [26-10-2025 14:57:29] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  2 × Apple Watch SE (2nd Gen) ...By.cssSelector: [role="alert"]
+[INFO] - [26-10-2025 14:57:30] [main] [com.graduationproject.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [26-10-2025 14:57:30] [main] [com.graduationproject.listeners.TestNGListeners] - increaseProductQuantityInCart passed
+[INFO] - [26-10-2025 14:57:30] [main] [com.graduationproject.listeners.TestNGListeners] - decreaseProductQuantityInCart  About to execute 
+[INFO] - [26-10-2025 14:57:30] [main] [com.graduationproject.engine.Actions.BrowserActions] - Navigated to URL: https://wolfixstore-ng.demo.sersawy.com/cart
+[INFO] - [26-10-2025 14:57:30] [main] [com.graduationproject.engine.Actions.ElementActions] - Clicked on element: By.xpath: //button[.='-']
+[INFO] - [26-10-2025 14:57:30] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  1By.id: cartCountBadge
+[INFO] - [26-10-2025 14:57:30] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  1 × Apple Watch SE (2nd Gen) ...By.cssSelector: [role="alert"]
+[INFO] - [26-10-2025 14:57:30] [main] [com.graduationproject.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [26-10-2025 14:57:30] [main] [com.graduationproject.listeners.TestNGListeners] - decreaseProductQuantityInCart passed
+[INFO] - [26-10-2025 14:57:30] [main] [com.graduationproject.listeners.TestNGListeners] - removeProductFromCart  About to execute 
+[INFO] - [26-10-2025 14:57:30] [main] [com.graduationproject.engine.Actions.BrowserActions] - Navigated to URL: https://wolfixstore-ng.demo.sersawy.com/cart
+[INFO] - [26-10-2025 14:57:30] [main] [com.graduationproject.engine.Actions.ElementActions] - Clicked on element: By.cssSelector: [class="bi bi-x-lg"]
+[INFO] - [26-10-2025 14:57:31] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  Removed from Cart ❌By.cssSelector: [aria-label="Removed from Cart ❌"]
+[INFO] - [26-10-2025 14:57:31] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  Your cart is emptyBy.cssSelector: [class="empty-cart-title"]
+[INFO] - [26-10-2025 14:57:31] [main] [com.graduationproject.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [26-10-2025 14:57:31] [main] [com.graduationproject.listeners.TestNGListeners] - removeProductFromCart passed
+[INFO] - [26-10-2025 14:57:31] [main] [com.graduationproject.drivers.GUIDriver] - Initializing driver =>edge<=
+[INFO] - [26-10-2025 14:57:35] [main] [com.graduationproject.engine.Actions.BrowserActions] - Navigated to URL: https://wolfixstore-ng.demo.sersawy.com
+[INFO] - [26-10-2025 14:57:35] [main] [com.graduationproject.listeners.TestNGListeners] - login  About to execute 
+[INFO] - [26-10-2025 14:57:36] [main] [com.graduationproject.engine.Actions.BrowserActions] - Navigated to URL: https://wolfixstore-ng.demo.sersawy.com
+[INFO] - [26-10-2025 14:57:36] [main] [com.graduationproject.engine.Actions.ElementActions] - Clicked on element: By.cssSelector: [content="Login"]
+[INFO] - [26-10-2025 14:57:36] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  ITI@Test.comBy.cssSelector: [formcontrolname="email"]
+[INFO] - [26-10-2025 14:57:36] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  p@ssw0rdBy.cssSelector: [type="password"]
+[INFO] - [26-10-2025 14:57:37] [main] [com.graduationproject.engine.Actions.ElementActions] - Clicked on element: By.xpath: //button[.="Login"]
+[INFO] - [26-10-2025 14:57:37] [main] [com.graduationproject.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [26-10-2025 14:57:37] [main] [com.graduationproject.listeners.TestNGListeners] - login passed
+[INFO] - [26-10-2025 14:57:37] [main] [com.graduationproject.listeners.TestNGListeners] - addProduct  About to execute 
+[INFO] - [26-10-2025 14:57:38] [main] [com.graduationproject.engine.Actions.BrowserActions] - Navigated to URL: https://wolfixstore-ng.demo.sersawy.com
+[INFO] - [26-10-2025 14:57:38] [main] [com.graduationproject.engine.Actions.ElementActions] - Clicked on element: By.xpath: //a[.=" Products "]
+[INFO] - [26-10-2025 14:57:39] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  apple watchBy.cssSelector: [name="searchInput"]
+[INFO] - [26-10-2025 14:57:39] [main] [com.graduationproject.engine.Actions.ElementActions] - Clicked on element: By.cssSelector: .search-input-group >i
+[INFO] - [26-10-2025 14:57:39] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  ELECTRONICSBy.cssSelector: [class="product-category"]
+[INFO] - [26-10-2025 14:57:39] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  AppleBy.cssSelector: [class="product-brand"]
+[INFO] - [26-10-2025 14:57:39] [main] [com.graduationproject.engine.Actions.ElementActions] - Hovered on element:By.cssSelector: [content="Add to Cart"]
+[INFO] - [26-10-2025 14:57:39] [main] [com.graduationproject.engine.Actions.ElementActions] - Clicked on element: By.cssSelector: [content="Add to Cart"]
+[INFO] - [26-10-2025 14:57:40] [main] [com.graduationproject.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [26-10-2025 14:57:40] [main] [com.graduationproject.listeners.TestNGListeners] - addProduct passed
+[INFO] - [26-10-2025 14:57:40] [main] [com.graduationproject.listeners.TestNGListeners] - proceedToCheckout  About to execute 
+[INFO] - [26-10-2025 14:57:40] [main] [com.graduationproject.engine.Actions.BrowserActions] - Navigated to URL: https://wolfixstore-ng.demo.sersawy.com/cart
+[INFO] - [26-10-2025 14:57:40] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  Apple Watch SE (2nd Gen) [GPS 40mm] Smartwatch with Starlight Aluminum Case with Starlight Sport Band - S/MBy.cssSelector: [class="cart-item-name"]
+[INFO] - [26-10-2025 14:57:40] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  $174.30By.cssSelector: [class="cart-item-price"]
+[INFO] - [26-10-2025 14:57:40] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  $174.30By.id: cartTotal
+[INFO] - [26-10-2025 14:57:40] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  1 itemsBy.cssSelector: .cart-header >span
+[INFO] - [26-10-2025 14:57:40] [main] [com.graduationproject.engine.Actions.ElementActions] - Clicked on element: By.xpath: //a[.=' Checkout']
+[INFO] - [26-10-2025 14:57:40] [main] [com.graduationproject.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [26-10-2025 14:57:40] [main] [com.graduationproject.listeners.TestNGListeners] - proceedToCheckout passed
+[INFO] - [26-10-2025 14:57:40] [main] [com.graduationproject.listeners.TestNGListeners] - validateCheckoutPage  About to execute 
+[INFO] - [26-10-2025 14:57:41] [main] [com.graduationproject.engine.Actions.BrowserActions] - Navigated to URL: https://wolfixstore-ng.demo.sersawy.com/checkout
+[INFO] - [26-10-2025 14:57:41] [main] [com.graduationproject.engine.Actions.BrowserActions] - Current URL is: https://wolfixstore-ng.demo.sersawy.com/checkout
+[INFO] - [26-10-2025 14:57:41] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  CheckoutBy.cssSelector: [class="checkout-title"]
+[INFO] - [26-10-2025 14:57:41] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  Automation streetBy.cssSelector: [formcontrolname="address"]
+[INFO] - [26-10-2025 14:57:41] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  sidi bishrBy.cssSelector: [formcontrolname="city"]
+[INFO] - [26-10-2025 14:57:41] [main] [com.graduationproject.engine.Actions.ElementActions] - Clicked on element: By.id: state
+[INFO] - [26-10-2025 14:57:41] [main] [com.graduationproject.engine.Actions.ElementActions] - Clicked on element: By.xpath: //li//span[.='Alex']
+[INFO] - [26-10-2025 14:57:41] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  12345By.cssSelector: [formcontrolname="zipCode"]
+[INFO] - [26-10-2025 14:57:42] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  01234567890By.cssSelector: [formcontrolname="phone"]
+[INFO] - [26-10-2025 14:57:42] [main] [com.graduationproject.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [26-10-2025 14:57:42] [main] [com.graduationproject.listeners.TestNGListeners] - validateCheckoutPage passed
+[INFO] - [26-10-2025 14:57:42] [main] [com.graduationproject.listeners.TestNGListeners] - validateOrderSummeryDetails  About to execute 
+[INFO] - [26-10-2025 14:57:42] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  1111111111111111By.cssSelector: [formcontrolname="cardNumber"]
+[INFO] - [26-10-2025 14:57:42] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  01By.cssSelector: [formcontrolname="expiryMonth"]
+[INFO] - [26-10-2025 14:57:42] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  35By.cssSelector: [formcontrolname="expiryYear"]
+[INFO] - [26-10-2025 14:57:42] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  123By.cssSelector: [formcontrolname="cvv"]
+[INFO] - [26-10-2025 14:57:43] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  ITI TestBy.cssSelector: [formcontrolname="cardName"]
+[INFO] - [26-10-2025 14:57:43] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  Apple Watch SE (2nd Gen) [GPS 40mm] Smartwatch with Starlight Aluminum Case with Starlight Sport Band - S/MBy.cssSelector: [class="checkout-item-name"]
+[INFO] - [26-10-2025 14:57:43] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  Qty: 1By.cssSelector: [class="checkout-item-quantity"]
+[INFO] - [26-10-2025 14:57:43] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  $174.30By.xpath: (//div//span[.='$174.30'])[2]
+[INFO] - [26-10-2025 14:57:43] [main] [com.graduationproject.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [26-10-2025 14:57:43] [main] [com.graduationproject.listeners.TestNGListeners] - validateOrderSummeryDetails passed
+[INFO] - [26-10-2025 14:57:43] [main] [com.graduationproject.listeners.TestNGListeners] - verifyInvalidCardNumber  About to execute 
+[INFO] - [26-10-2025 14:57:43] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  111111111111111By.cssSelector: [formcontrolname="cardNumber"]
+[INFO] - [26-10-2025 14:57:43] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  01By.cssSelector: [formcontrolname="expiryMonth"]
+[INFO] - [26-10-2025 14:57:43] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  35By.cssSelector: [formcontrolname="expiryYear"]
+[INFO] - [26-10-2025 14:57:44] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  123By.cssSelector: [formcontrolname="cvv"]
+[INFO] - [26-10-2025 14:57:44] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  ITI TestBy.cssSelector: [formcontrolname="cardName"]
+[INFO] - [26-10-2025 14:57:44] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  Invalid card numberBy.xpath: //span[text()='Invalid card number']
+[INFO] - [26-10-2025 14:57:44] [main] [com.graduationproject.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [26-10-2025 14:57:44] [main] [com.graduationproject.listeners.TestNGListeners] - verifyInvalidCardNumber passed
+[INFO] - [26-10-2025 14:57:44] [main] [com.graduationproject.listeners.TestNGListeners] - verifyInvalidExpirationCvv  About to execute 
+[INFO] - [26-10-2025 14:57:44] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  1111111111111111By.cssSelector: [formcontrolname="cardNumber"]
+[INFO] - [26-10-2025 14:57:44] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  01By.cssSelector: [formcontrolname="expiryMonth"]
+[INFO] - [26-10-2025 14:57:44] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  35By.cssSelector: [formcontrolname="expiryYear"]
+[INFO] - [26-10-2025 14:57:45] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  12By.cssSelector: [formcontrolname="cvv"]
+[INFO] - [26-10-2025 14:57:45] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  ITI TestBy.cssSelector: [formcontrolname="cardName"]
+[INFO] - [26-10-2025 14:57:45] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  Invalid CVVBy.xpath: //span//span[.='Invalid CVV']
+[INFO] - [26-10-2025 14:57:45] [main] [com.graduationproject.media.ScreenshotsManager] - Capturing screenshot successfully
+[INFO] - [26-10-2025 14:57:45] [main] [com.graduationproject.listeners.TestNGListeners] - verifyInvalidExpirationCvv passed
+[INFO] - [26-10-2025 14:57:45] [main] [com.graduationproject.listeners.TestNGListeners] - verifyInvalidExpirationMonth  About to execute 
+[INFO] - [26-10-2025 14:57:45] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  1111111111111111By.cssSelector: [formcontrolname="cardNumber"]
+[INFO] - [26-10-2025 14:57:45] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  00By.cssSelector: [formcontrolname="expiryMonth"]
+[INFO] - [26-10-2025 14:57:46] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  35By.cssSelector: [formcontrolname="expiryYear"]
+[INFO] - [26-10-2025 14:57:46] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  123By.cssSelector: [formcontrolname="cvv"]
+[INFO] - [26-10-2025 14:57:46] [main] [com.graduationproject.engine.Actions.ElementActions] - Typed into element:  ITI TestBy.cssSelector: [formcontrolname="cardName"]
+[INFO] - [26-10-2025 14:57:46] [main] [com.graduationproject.engine.Actions.ElementActions] - Retrieved text ' from element:  Invalid monthBy.xpath: //span[text()='Invalid month']
+[INFO] - [26-10-2025 14:57:46] [main] [com.graduationproject.media.ScreenshotsManager] - Capturing screenshot successfully

@@ -1,6 +1,6 @@
 package com.graduationproject.apis;
-import com.graduationproject.utils.TimeManager;
-import com.graduationproject.utils.logs.LogsManager;
+import com.graduationproject.engine.TimeManager;
+import com.graduationproject.engine.logs.LogsManager;
 
 import static io.restassured.RestAssured.given;
 
